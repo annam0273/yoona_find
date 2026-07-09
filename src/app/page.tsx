@@ -44,7 +44,7 @@ export default function Home() {
       <header className="glass-card text-center animate-in" style={{ animationDelay: '0.1s' }}>
         <div style={{ position: 'relative', width: '160px', height: '160px', margin: '0 auto 1.5rem auto' }}>
           <Image
-            src="/yoona.jpeg"
+            src="/yoona_find/yoona.jpeg"
             alt="Yoona the cat"
             fill
             priority
@@ -141,13 +141,13 @@ export default function Home() {
         </h2>
         <div className="gallery">
           <div className="gallery-img">
-            <Image src="/yoona.jpeg" alt="Yoona" fill style={{ objectFit: 'cover' }} />
+            <Image src="/yoona_find/yoona.jpeg" alt="Yoona" fill style={{ objectFit: 'cover' }} />
           </div>
           <div className="gallery-img">
-            <Image src="/yoona1.jpeg" alt="Yoona playing" fill style={{ objectFit: 'cover' }} />
+            <Image src="/yoona_find/yoona1.jpeg" alt="Yoona playing" fill style={{ objectFit: 'cover' }} />
           </div>
           <div className="gallery-img">
-            <Image src="/yoona2.jpg" alt="Yoona sleeping" fill style={{ objectFit: 'cover' }} />
+            <Image src="/yoona_find/yoona2.jpg" alt="Yoona sleeping" fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
       </section>
